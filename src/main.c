@@ -1,5 +1,3 @@
-#define _GNU_SOURCE
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -73,7 +71,7 @@ int main(int argc, char **argv)
 
     struct container_config config = {
         .rootfs = NULL,
-        .hostname = "cbox",
+        .hostname = "container",
         .argv = NULL,
         .memory_limit = 0,
         .cpu_percent = 0,
