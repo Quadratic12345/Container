@@ -18,6 +18,7 @@ int setup_rootfs(const char *rootfs){
         perror("chdir");
         return -1;
     }
+    return 0;
 }
 
 //now setting up the proc in here
